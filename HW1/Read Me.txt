@@ -1,0 +1,10 @@
+Bienvenue!
+
+THanks for viewing my project here. I've designed this website to test what I've learned thus far is the web development discipline.
+
+It's a simple "About Me" site that i will be building on in the future as my instruction grows. So this a version 1.0 - I suppose you can consider it as such.
+
+This version sports a sample "About Me" page, that doesn't actually contain any substantil info, but it could! Alongside it: Portfolio and Contact pages. THe Portfolio only contains
+place holders as of now. THe contact page, while inactive, is the framework for actual contact with me.
+
+There are a few errors on the page, that I'm attempting to debug. Like, for instance, the three page tabs jut-out of the header's container. I just couldn't seem to be able to fix it.

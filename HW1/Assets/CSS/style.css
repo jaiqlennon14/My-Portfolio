@@ -1,0 +1,143 @@
+
+  .header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 2rem 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 5px solid;
+    border-width: 100%;
+    border-radius: 0px 0px 3px 0px;
+    border-color: #cccccc; 
+}
+
+.main {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: .3rem;
+    border-color: #cccccc;
+  }
+
+h1 {
+    border:3px solid lightblue; 
+    padding: 10px;
+}
+
+h2 {
+    border-spacing: 40px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.btn {
+    font-weight: 400;
+    font color: black;
+    text-align: right;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border-color: white;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-group {
+    display: inline;
+    float: right;
+    width: 100px;
+    height: 120px;
+}
+   
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: grey;
+    border-color: #545b62;
+    cursor: pointer;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    padding: 15px;
+    margin-top: -50px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    color: white;
+    border-radius: .3rem;
+    background-color: #666666; 
+}
+
+/* Contact */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boxes {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: .3rem;
+    border-color: #cccccc;
+  }
+
+  /* Portfolio */
+  .box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    padding: -10px;
+    z-index: 999;
+    margin: 0 auto;
+    left: 10   
+    right: 0;        
+    text-align: center;
+    top: 45%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 30%; /* Set the width of the positioned div */
+}
+
+.container {
+    position: relative;
+}
